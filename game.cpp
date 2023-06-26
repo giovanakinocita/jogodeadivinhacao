@@ -4,9 +4,15 @@ using namespace std;
 int main()
 {
     cout << "***************************************" << endl;
-    cout << "* Boas vindas ao Jogo da Adivinhação! *" << endl;
+    cout << "* Boas vindas ao Jogo da AdivinhaÃ§Ã£o! *" << endl;
     cout << "***************************************" << endl;
 
-    int numero_secreto = 55;
-    cout << "O número secreto é " << numero_secreto << ". Não conte a ninguém!" << endl;
+    int numero_secreto = 20;
+    cout << "O nÃºmero secreto Ã©: " << numero_secreto << ". NÃ£o conte a ninguÃ©m!" << endl;
+
+    int chute;
+    cout << "Qual seu chute? ";
+    cin >> chute;
+    cout << "O valor do chute Ã©:" << chute << endl;
+    
 }
